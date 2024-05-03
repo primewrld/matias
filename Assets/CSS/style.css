@@ -1,0 +1,192 @@
+body{
+    
+    background-color: var(--bg-color3);
+    
+}
+:root{
+    scroll-behavior: smooth;
+    --bg-color1  : hsl(60, 11%, 7%) ;
+    --bg-color2 : hsl(0, 0%, 0%);
+    --color : hsl(0, 0%, 100%);
+    --color2 : hsl(0, 0%, 60%);
+    --color4 : hsla(0, 0%, 60%, 0.3);    --color3 : hsl(72, 90%, 53%);
+    --bg-color3 : hsl(210, 8%, 10%);
+}
+nav{
+    display: flex;
+    padding-top: 20px;
+    border-bottom: 1px solid var(--color4);
+    padding-bottom: 20px;
+}
+.header{
+    background-image: url(../IMG/banner/banner-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: -350px -2px;
+}
+#bar{
+    border: none;
+    width: 50px;
+    font-size: 25px; 
+    background-color: var(--color);
+
+}
+.tap{
+    display: flex;
+    gap: 10px;
+    margin-left: -20px;
+}
+ul, .notmob {
+    display: none;
+
+}
+button{
+    background-color: var(--color3);
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+   
+}
+.cool{
+    display: flex;
+    gap: 50px;
+    width: 300px;
+    padding-left: 10px;
+}
+#bnarr{
+    width:60px;
+    height: 70px;
+}
+.cool p{
+    color: var(--color);
+    font-size: 15px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: var(--color);
+    padding-left: 10px;
+}
+.banman{
+    width: 180px;
+    height: 155px; 
+    margin-top: -50px;
+}
+#pe{
+    color: var(--color);
+    font-size: 15px;
+    padding-left: 15px;
+    margin-top: 30px;
+    border-bottom: 5px solid var(--color4);
+    width: 250px;
+    padding-bottom: 20px;
+}
+#logo1{
+    width: 80px;
+    height: 28px;
+    padding-top: 15px;
+    margin-right: 100px;
+    padding-left: 10px;
+}
+
+
+
+
+@media screen and (min-width:1024px) {
+    ul{
+        display: flex;
+        color: var(--color);
+        gap: 30px;
+        list-style: none;
+
+    }
+    .header{
+        background-image: url(../IMG/banner/banner-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1000px;
+        background-position: -200px -100px;
+    }
+    h1{
+        text-transform: capitalize;
+        font-size: 90px;
+        color: var(--color);
+        padding-left: 55px;
+        width: 900px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: var(--color);
+    }
+    #pe{
+        color: var(--color);
+        font-size: 25px;
+        padding-left: 35px;
+        width: 400px; 
+        border-bottom: 1px solid var(--color);
+        margin-top: 150px;
+        
+    }
+   .banman{
+    width: 500px;
+    height: 700px; 
+    float: right;
+    margin-top: -600px;
+    }
+    #logo1{
+        width: 80px;
+        height: 28px;
+        padding-top: 15px;
+        margin-right: 100px;
+        padding-left: 10px;
+    }
+     nav{
+        display: flex;
+        padding-top: 20px;
+        border-bottom: 1px solid var(--color4);
+        padding-bottom: 20px;
+    
+   }
+    a:hover, #pe:hover{
+        cursor: pointer;
+        color: var(--color3);
+    }
+    #logo1 {
+        width: 180px;
+        height: 30px;
+    
+    }
+    .tap{
+        margin-left: 120px;
+    }
+    .notmob{
+
+         display: block;
+         gap: 10px;
+         margin-left: 20px;
+        font-size: 30px;
+    }
+    p{
+        color: var(--color);
+        font-size: 15px;
+        margin-left: 15px;
+
+    }
+    .rot{
+        rotate: 90deg;
+    }
+    footer{
+        background-color: var(--bg-color1)
+    };
+    #turn{
+        font-size: 70px;
+        margin-top: 100px;
+    }
+    #dail{
+        margin-top: -500px;
+    }
+}
